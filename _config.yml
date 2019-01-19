@@ -15,4 +15,4 @@ exclude:
 - node_modules
 - gulpfile.js
 - package.json
-baseurl: 'portfolio-1'
+baseurl: 'https://juscuizon.github.io/portfolio-1'
