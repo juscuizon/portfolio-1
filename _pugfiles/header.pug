@@ -1,14 +1,14 @@
 mixin navigation-links
 	ul
-		li: a(href="/..") HOME
-		li: a(href="/categories/technology.html") TECHNOLOGY
-		li: a(href="/categories/finance.html") FINANCE
-		li: a(href="/categories/fitness.html") FITNESS
-		li: a(href="/categories/food.html") FOOD
-		li: a(href="/categories/travel.html") TRAVEL
+		li: a(href="{{ site.baseurl }}/..") HOME
+		li: a(href="{{ site.baseurl }}/categories/technology") TECHNOLOGY
+		li: a(href="{{ site.baseurl }}/categories/finance") FINANCE
+		li: a(href="{{ site.baseurl }}/categories/fitness") FITNESS
+		li: a(href="{{ site.baseurl }}/categories/food") FOOD
+		li: a(href="{{ site.baseurl }}/categories/travel") TRAVEL
 		li: a(href="#") SERVICES
-		li: a(href="/contact") CONTACT
-		li: a(href="/about") ABOUT
+		li: a(href="{{site.baseurl}}/contact") CONTACT
+		li: a(href="{{site.baseurl}}/about") ABOUT
 
 .mobile-header-bar
 	span#mobile-navigation-button.mobile-navigation-button

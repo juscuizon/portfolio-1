@@ -33,12 +33,12 @@
 
 		.first-row
 			select(onchange="location = this.options[this.selectedIndex].value")
-				option(value="/.." selected="selected") Select Category
-				option(value="/categories/technology.html") Technology
-				option(value="/categories/finance.html") Finance
-				option(value="/categories/fitness.html") Fitness
-				option(value="/categories/food.html") Food
-				option(value="/categories/travel.html") Travel
+				option(value="{{ site.baseurl }}" selected="selected") Select Category
+				option(value="{{ site.baseurl }}/categories/technology") Technology
+				option(value="{{ site.baseurl }}/categories/finance") Finance
+				option(value="{{ site.baseurl }}/categories/fitness") Fitness
+				option(value="{{ site.baseurl }}/categories/food") Food
+				option(value="{{ site.baseurl }}/categories/travel") Travel
 
 	.subscribe-form
 		.title
